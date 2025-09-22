@@ -1,0 +1,17 @@
+{
+  "name": "licensing-svc",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": "20.x" },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "zod": "^4.1.11",
+    "jsonwebtoken": "^9.0.2"     // if you’re minting JWTs
+  }
+}
