@@ -146,6 +146,7 @@ app.post('/device/enroll', async (req, res) => {
   res.json({ device_id: deviceId, status: 'pending' });
 });
 
+app.get('/health', (_req,res)=>res.type('text').send('ok'));
 /* =================================================================================
    2) DEVICE LICENSE MINT (possession proof)
    ================================================================================= */
@@ -394,3 +395,4 @@ app.post('/admin/devices/:id/revoke', requireAdmin, async (req, res) => {
 /* ---------- Boot ---------- */
 const port = process.env.PORT || 8088;
 app.listen(port, () => console.log(`Licensing service listening on :${port}`));
+
