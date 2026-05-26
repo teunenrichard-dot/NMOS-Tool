@@ -1,11 +1,11 @@
 # Nightly sweep — 2026-05-26
 
-Generated at 2026-05-26T09:44:07+01:00 on MasterPi.
-Uptime: up 12 hours, 40 minutes. Load: 0.00, 0.02, 0.00.
+Generated at 2026-05-26T09:45:10+01:00 on MasterPi.
+Uptime: up 12 hours, 41 minutes. Load: 0.00, 0.01, 0.00.
 
 ## System
 
-- ✓ Memory free: 2984MB / 3796MB
+- ✓ Memory free: 2966MB / 3796MB
 - ✓ Root disk 69% full (8.7G avail)
 - ✓ No OOM kills in last 24h
 - ✓ No pending reboot
